@@ -1,0 +1,135 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+	   <script>
+var questions = [
+    {
+          prompt: "1. What best describes a variable?\n(a) Variables are the output of a Computer\n(b) Variables are containers for storing data values\n(c) Variables allow you to see the datatype of the variable",
+          answer: "b"
+    },
+    {
+         prompt: "2. How do you cast a variable (this allows you to see data as the specific data type)?\n(a) x == 3\n(b) x = str(3)\n(c) type 3",
+         answer: "b"
+    },
+    {
+         prompt: "3. How do you declare a datatype as 'equal to' ?\n(a)  ==>\n(b) =\n(c) ==",
+         answer: "c"
+    },
+	{
+         prompt: "4. Which of the following is a Logical Condition?\n(a)  ....\n(b)  >=\n(c) >>=",
+         answer: "b"
+    },
+	{
+         prompt: "5. Which of the following is true?\n(a)  Indentation is used is most programming languages\n(b) Python was started in 1934\n(c)  The else statement can only be used in Python3.0",
+         answer: "a"
+    },
+	{
+         prompt: "6. Which datatype would be used for 3.0?\n(a) String\n(b) float\n(c) boolean",
+         answer: "b"
+    },
+	{
+         prompt: "7. Which data type would be used for a name?\n(a) int\n(b) string\n(c)  float",
+         answer: "b"
+    },
+	{
+         prompt: "8. Which of the following is a container for data?\n(a) Indentation\n(b)  Variables\n(c) Conditions",
+         answer: "b"
+    },
+	{
+         prompt: "9. Which of the following are used with if statements?\n(a) if2\n(b) else\n(c) return",
+         answer: "b"
+    },
+	{
+         prompt: "10. What is missing from the following statement?\n - Conditions work with _________ and they will determine the output of your program.\n(a) if statements\n(b) strings\n(c)  integers",
+         answer: "a"
+    }
+	
+];
+var score = 0;
+
+
+for(var i = 0; i < questions.length; i++){
+    var response = window.prompt(questions[i].prompt);
+    if(response == questions[i].answer){
+         score++;
+         alert("Correct!");
+    } else {
+         alert("Incorrect!");
+    }
+}
+alert("you got " + score + "/" + questions.length + "  If you feel confident, move to the next two topics!");
+
+
+ </script>
+
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+
+		<font color="lightblue"><h1 align ="center">
+
+
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+
+
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+ 
+  <h1 align="center"><a href = "Index.html"><u>Quiz Complete!</u></a></h1>
+    <h1 align="center"><a href = "Index.html"><u>Try anything you have learnt on the IDE below.</u></a></h1>
+	    <p align="center"><a href = "IDE's.html"><img src="images/BythonImagebanner.jpg""></a></p>
+    <h1 align="center"><a href = "Index.html"><u>If you feel confident,give another two topics a go!</u></a></h1>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+		
+
+       
+           
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+  
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+<u><font color="lightblue"><h1 align ="center">Loops and Iterators</h1></font></u>
+<font color ="lightblue"><h2 align="center">An iterator is an object that contains a countable number of values.
+These are commonly used with if and else statements. This allowing the output determined by any values which are within the 'iterators'.
+Once again these are classed as objects, so this will be your first taste of object-orientated programming languages as such in other langauges such as java or C++.
+</h2> </font>
+<font color ="lightblue"><h2 align="center">  </h2></font>
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+
+<u><font color="lightblue"><h1 align ="center"> Iterator vs Iterable</h1></font></u>
+<font color ="lightblue"><h2 align="center">
+Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable containers which you can get an iterator from.
+All these objects have a iter() method which is used to get an iterator:
+ </h2></font>
+ <p align = "center"><img src="images/it1.jpg" height="300" width="600"> </p>
+ <font color ="lightblue"><h2 align="center">
+The following returns an iteratator from the tuple and prints out the value of alll variables included such as the following:
+ </h2></font>
+  <p align = "center"><img src="images/it2.jpg" height="300" width="600"> </p>
+ <font color ="lightblue"><h2 align="center">
+These also again are classed as objects and you will see alot more of these within other object-orientated programming languages as such in other langauges such as java or C++. </h2></font>
+
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+
+<u><font color="lightblue"><h1 align ="center">Looping Through an Iterator</h1></font></u>
+<font color ="lightblue"><h2 align="center">It is common to use the for statement/loop to iterate through an iterable object.
+ This is seen in the following example: </h2></font>
+ <p align = "center"><img src="images/it3.jpg" height="300" width="600"> </p>
+ <font color ="lightblue"><h2 align="center">The for loop actually creates an iterator object and executes the next() method for each loop.
+ You can also iterate the characters of a string, this is seen in the following:</h2></font>
+  <p align = "center"><img src="images/it4.jpg" height="300" width="600"> </p>
+<h2 align="center"><font color ="lightblue">Please make sure to look through all of the aspects covered in this topic as they will be included in your next quiz. 
+Looking over and practicing is key to learning how to program in all languages.</h2></font>
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+<u><font color="lightblue"><h1 align ="center">Create an Iterator</h1></font></u>
+
+<h2 align="center"><font color ="lightblue">To create an object/class as an iterator you have to implement the methods __iter__() and __next__() to your object.
+As you have learned in the Python Classes/Objects chapter, all classes have a function called __init__(), which allows you to do some initializing when the object is being created.
+The __iter__() method acts similar, you can do operations (initializing etc.), but must always return the iterator object itself.
+The __next__() method also allows you to do operations, and must return the next item in the sequence.
+ </h2></font>
+ 
+ <p align = "center"><img src="images/createit.jpg" height="800" width="600"> </p>
+
+ 
+ <h2 align="center"><font color ="lightblue">The example above involves an iterator that returns numbers, starting from 1 and this will be increased (returning 1,2,3,4 and 5) </h2> </font>
+ <h2 align="center"><font color ="lightblue">Please make sure to look through all of the aspects covered in this topic as they will be included in your next quiz. 
+Looking over and practicing is key to learning how to program in all languages.</h2></font>
+ 
+ 
+  <p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+</h1>
+
+ <u><font color="lightblue"><h1 align ="center">StopIteration</h1></font></u>
+<h2 align="center"><font color ="lightblue">The example above would continue forever if you had enough next() statements, or if it was used in a for loop.
+To prevent the iteration to go on forever, we can use the StopIteration statement.
+In the __next__() method, we can add a terminating condition to raise an error if the iteration is done a specified number of times:  </h2></font>
+ <p align = "center"><img src="images/stopit.jpg" height="800" width="600"> </p>
+<h2 align="center"><font color ="lightblue">Please make sure to look through all of the aspects covered in this topic as they will be included in your next quiz. 
+Looking over and practicing is key to learning how to program in all languages.</h2></font>
+ 
+<h2 align="center">
+
+<a href="Functions.html"><button align="center">Next Topic</button></a>
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: lightblue;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid lightblue
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+

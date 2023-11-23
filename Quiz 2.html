@@ -1,0 +1,142 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+	   <script>
+var questions = [
+    {
+          prompt: "1. Which of the following is a for loop used for?\n(a) Iterating over a sequence\n(b) Splitting variables into arrays\n(c) Dividing Strings into multiple variables",
+          answer: "a"
+    },
+    {
+         prompt: "2. Which of the following is an Arithmetic operator?\n(a) x\n(b) y\n(c) *",
+         answer: "c"
+    },
+    {
+         prompt: "3. Which of the following best describes control flow?\n(a) Control flow is used to control variables\n(b) Control flow is for conducting arithmetic\n(c) Control flow is the order in which individual statements, instructions, or function calls are executed.",
+         answer: "c"
+    },
+	{
+         prompt: "4. Which of the following is an Comparision operator?\n(a) {\n(b) ===\n(c) >",
+         answer: "c"
+    },
+	{
+         prompt: "5. Which Operator is used for floor division?\n(a) -\n(b) //\n(c) ==",
+         answer: "b"
+    },
+	{
+         prompt: "6. Which Operator is used for Multiplication\n(a) x\n(b) *\n(c) ^",
+         answer: "b"
+    },
+	{
+         prompt: "7. Which best describes continue statement?\n(a) The continue statement allows us to stop the current iteration of the loop\n(b) The continue statement allows us to continue to next class\n(c) The continue statement allows us to continue to next block of code ",
+         answer: "a"
+    },
+	{
+         prompt: "8. What is != used for?\n(a) Equal to and above\n(b) Not equal to\n(c) Missing variable",
+         answer: "b"
+    },
+	{
+         prompt: "9. Which operator is used for division?\n(a) /\n(b) //\n(c) >",
+         answer: "a"
+    },
+	{
+         prompt: "10. What is missing from the following statement?\nOperators are used to complete_________with variable and values\n(a) mathematics\n(b) operations\n(c) solutions",
+         answer: "b"
+    }
+	
+];
+var score = 0;
+
+
+for(var i = 0; i < questions.length; i++){
+    var response = window.prompt(questions[i].prompt);
+    if(response == questions[i].answer){
+         score++;
+         alert("Correct!");
+    } else {
+         alert("Incorrect!");
+    }
+}
+alert("you got " + score + "/" + questions.length + "  If you feel confident, move to the next two topics!");
+
+
+ </script>
+
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+
+		<font color="lightblue"><h1 align ="center">
+
+
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+
+
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+ 
+ 
+  <h1 align="center"><a href = "Index.html"><u>Quiz Complete!</u></a></h1>
+    <h1 align="center"><a href = "Index.html"><u>Try anything you have learnt on the IDE below.</u></a></h1>
+	    <p align="center"><a href = "IDE's.html"><img src="images/BythonImagebanner.jpg""></a></p>
+    <h1 align="center"><a href = "Index.html"><u>If you feel confident,give another two topics a go!</u></a></h1>
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+

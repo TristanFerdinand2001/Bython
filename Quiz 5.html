@@ -1,0 +1,140 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+	   <script>
+var questions = [
+    {
+          prompt: "1. What is an Array?\n(a) Special variable which can hold more than one value at a time\n(b) Variables for storing two data values\n(c) Variables which is only found in python",
+          answer: "a"
+    },
+    {
+         prompt: "2. How do add data to an Array?\n(a) def()\n(b) init()\n(c) append()",
+         answer: "c"
+    },
+    {
+         prompt: "3. What are the two main parts to OOP ?\n(a) ints and longs\n(b) Classes and Objects\n(c) Loops and Objects",
+         answer: "b"
+    },
+	{
+         prompt: "4. Does OOP have its own methods?\n(a) Yes\n(b) No",
+         answer: "a"
+    },
+	{
+         prompt: "5. Which of the following is true?\n(a) OOP is found in many programming languages\n(b) OOP is only found in python\n(c) OOP was the first programming paradigm ",
+         answer: "a"
+    },
+	{
+         prompt: "6. Do arrays have their own methods?\n(a) Yes\n(b) No",
+         answer: "b"
+    },
+	{
+         prompt: "7. In python are lists used as arrays?\n(a) Yes\n(b) No",
+         answer: "a"
+    },
+	{
+         prompt: "8. Is OOP the most common paradigm in python?\n(a) Yes\n(b) No",
+         answer: "b"
+    },
+	{
+         prompt: "9. Which libary will need to be imported to use Arrays?\n(a) ArrayLibary\n(b) ListLibary\n(c) NumPy Libary",
+         answer: "c"
+    },
+	{
+         prompt: "10. What does OOP stand for?\n (a) Object Offered Programming\n(b) Object Orientated Programming\n(c) Object Oblin Progamming ",
+         answer: "b"
+    }
+	
+];
+var score = 0;
+
+
+for(var i = 0; i < questions.length; i++){
+    var response = window.prompt(questions[i].prompt);
+    if(response == questions[i].answer){
+         score++;
+         alert("Correct!");
+    } else {
+         alert("Incorrect!");
+    }
+}
+alert("you got " + score + "/" + questions.length + "");
+
+
+ </script>
+
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+
+		<font color="lightblue"><h1 align ="center">
+
+
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+
+
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+ 
+ 
+  <h1 align="center"><a href = "Index.html"><u>Quiz Complete!</u></a></h1>
+    <h1 align="center"><a href = "Index.html"><u>Try anything you have learnt on the IDE below.</u></a></h1>
+	    <p align="center"><a href = "IDE's.html"><img src="images/BythonImagebanner.jpg""></a></p>
+    <h1 align="center"><a href = "Index.html"><u>If you feel confident,give another two topics a go!</u></a></h1>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+

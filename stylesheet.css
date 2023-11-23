@@ -1,0 +1,48 @@
+	{
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+		background-color:#078C5B;
+    }
+
+    .header {
+        background-color:#078C5B ;
+        padding: 0.001px;
+        text-align: center;
+    }   
+
+    .topnav {
+        overflow: hidden;
+        background-color: lightblue;
+    }
+
+    .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+     }
+
+    {
+     position: relative;
+     width: 30%;
+    }
+		
+	
+   .p{
+     postion:60%;
+     align:center
+     }
+	 
+    .h1{
+  
+	text-shadow: 2px 2px;
+    }
+    
+
+				
+				

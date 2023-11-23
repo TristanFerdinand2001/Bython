@@ -1,0 +1,166 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+		
+
+       
+           
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+  
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+ 
+
+<u><font color="lightblue"><h1 align ="center">Inheritance</h1></font></u>
+<font color ="lightblue"><h2 align="center">Python, just like many other programming languages allows inheritance. 
+This consists of a parent class and a child class. Child classes can inherit all methods and properties from a parent class.</h2></font>
+
+<font color ="lightblue"><h2 align="center">By using inheritance, we can create a class that contains all the methods and attributes of another class.
+The class being inherited from, also known as the base class, is the parent class.
+The class that inherits from another class is referred to as a child class or derived class. </h2></font>
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+<u><font color="lightblue"><h1 align ="center">Create a Parent Class</h1></font></u>
+<p align = "center"><img src="images/i1.jpg" height="300" width="600"> </p>
+<font color ="lightblue"><h2 align="center">
+Any class can be a parent class, so the syntax is exactly the same as creating any other class.
+This is seen in the example above. The class above is named Person with firstname and last name as properties and a printname method.
+Inheritance is not found in all languages and some languages only allow child classes to inherit from one parent class.
+ </h2></font>
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+
+
+
+
+<u><font color="lightblue"><h1 align ="center">Create a Child Class</h1></font></u>
+<p align = "center"><img src="images/i2.jpg" height="300" width="600"> </p>
+<font color ="lightblue"><h2 align="center">Provide the parent class as a parameter when constructing the child class to build a class that inherits the functionality from the parent class.
+This is seen in the example above, the child class is then able to inherit all of the attributes and methods from the parent class.
+ </h2></font>
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+
+
+<u><font color="lightblue"><h1 align ="center">The __init__() function</h1></font></u>
+<p align = "center"><img src="images/init1.jpg" height="300" width="600"> </p>
+<font color ="lightblue"><h2 align="center">We have so far produced a child class that receives its parent's properties and methods as inheritance.
+To the child class, we want to add the __init__() function (instead of the pass keyword).
+Every time the class is used to create a new object, the __init__() function is automatically called. </h2></font>
+<p align = "center"><img src="images/init2.jpg" height="300" width="600"> </p>
+<font color ="lightblue"><h2 align="center">
+When you add the __init__() function, the child class will no longer inherit the parent's __init__() function.
+The child's __init__() function overrides the inheritance of the parent's __init__() function.
+To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function, this is shown in the example above.
+
+ </h2></font>
+ 
+ 
+ 
+ <p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+ 
+<u><font color="lightblue"><h1 align ="center">The super() function</h1></font></u>
+<p align = "center"><img src="images/super1.jpg" height="300" width="600"> </p>
+
+<font color ="lightblue"><h2 align="center">.Python like many other programming languages has the super() function.
+This function will make the child class inherit all of the methods and properties from its parent class. This is seen in the example above. </h2> </font>
+
+
+
+
+<p align = "center"><img src="images/banner22.jpg" height="100" width="6000"> </p>
+
+
+<u><font color="lightblue"><h1 align ="center">Add Properties and Methods</h1></font></u>
+<p align = "center"><img src="images/super2.jpg" height="300" width="600"> </p>
+<h2 align="center"><font color ="lightblue">By using the super() function, you do not have to use the name of the parent element, 
+it will automatically inherit the methods and properties from its parent. class. This is not seen in all programming languages.
+In the example below, the year 2019 should be a variable, and passed into the Student class when creating the objects. 
+To do so, add another parameter in the __init__() function.
+ </h2></font>
+ <h2 align="center"><font color ="lightblue">
+ <b>Add a year parameter, and pass the correct year when creating objects.</b>
+ </h2></font>
+ <p align = "center"><img src="images/super3.jpg" height="300" width="600"> </p>
+<h2 align="center"><font color ="lightblue">Add a method called welcome to the Student class as seen below.
+ </h2></font>
+ <p align = "center"><img src="images/super4.jpg" height="300" width="800"> </p>
+
+
+
+<h2 align="center">
+
+
+
+<a href="Quiz 4.html"><button align="center">Begin Quiz</button></a>
+
+
+
+
+
+
+
+
+
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: lightblue;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid lightblue
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+

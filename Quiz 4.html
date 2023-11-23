@@ -1,0 +1,138 @@
+<!DOCTYPE> 
+
+<title>Bython</title>
+<html>
+
+<head>  
+       <link rel="stylesheet" href="stylesheet.css">   
+	   <script>
+var questions = [
+    {
+          prompt: "1. Which of the following doesn't allow duplicates?\n(a) Sets\n(b) Tuples\n(c) Lists",
+          answer: "a"
+    },
+    {
+         prompt: "2. Which of the following are used to stored pieces of data in order?\n(a) Lists\n(b) Tuples\n(c) Sets",
+         answer: "b"
+    },
+    {
+         prompt: "3. True or False?\nSets consider binary\n(a) true\n(b) false",
+         answer: "a"
+    },
+	{
+         prompt: "4. Which number do Lists begin from?\n(a) 1\n(b) 2\n(c) 0",
+         answer: "c"
+    },
+	{
+         prompt: "5. If you try to print the same piece of data twice with a set what will happen?\n(a) The second piece will be ignored\n(b) Both pieces will print\n (c) An error will occur",
+         answer: "a"
+    },
+	{
+         prompt: "6. Which two classes are used during inheritance\n(a) Parent and Child\n(b) First and Second\n(c) Class 0 and Class 1",
+         answer: "a"
+    },
+	{
+         prompt: "7. Are Sets only found in python?\n(a) yes\n(b) no",
+         answer: "b"
+    },
+	{
+         prompt: "8. Which of the following uses init() function\n(a) Inheritance\n(b) Lists\n(c) Tuples",
+         answer: "a"
+    },
+	{
+         prompt: "9. Which function allows child classes to inherit from a parent class?\n(a) extend()\n(b) init()\n(c) super()",
+         answer: "b"
+    },
+	{
+         prompt: "10. Which of the following uses round brackets?\n (a) Tuples\n(b) Lists\n(c) Arrays",
+         answer: "a"
+    }
+	
+];
+var score = 0;
+
+
+for(var i = 0; i < questions.length; i++){
+    var response = window.prompt(questions[i].prompt);
+    if(response == questions[i].answer){
+         score++;
+         alert("Correct!");
+    } else {
+         alert("Incorrect!");
+    }
+}
+alert("you got " + score + "/" + questions.length + "  If you feel confident, move to the next two topics!");
+
+
+ </script>
+
+
+    <body>
+
+        <div class="header">
+		<p align = "center"><img src="images/Bython_LogoX.png" height="300" width="300"> </p>
+
+		<font color="lightblue"><h1 align ="center">
+
+
+        </div>
+
+        <div class="topnav">
+           <h1> <a href="Index.html">Home</a></h1>
+           <h1> <a href="">IDE's</a></h1>
+           <h1> <a href="Topics.html">Topics</a>  </h1>
+          <h1>  <a href=" ">FAQ</a></h1>
+		<h1> <a href = "">Third-Party Websites </a></h1>
+
+
+ </div>
+
+
+</head>
+<style>
+    img {
+        border: 5px solid #078c5b;
+    }
+</style>
+
+ 
+ 
+  <h1 align="center"><a href = "Index.html"><u>Quiz Complete!</u></a></h1>
+    <h1 align="center"><a href = "Index.html"><u>Try anything you have learnt on the IDE below.</u></a></h1>
+	    <p align="center"><a href = "IDE's.html"><img src="images/BythonImagebanner.jpg""></a></p>
+    <h1 align="center"><a href = "Index.html"><u>If you feel confident,give another two topics a go!</u></a></h1>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>            
+<style>
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:lightblue;
+  color: white;
+}
+</style>
+<footer>
+  <h2 align ="center">Third-Party Websites</h2>
+  <h2 align = "center">Terms and Conditions</h2>
+  
+</footer> 
+   </div>
+</html>
+
+
